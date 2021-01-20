@@ -22,7 +22,7 @@ namespace bluefragments
             if (input == "")
                 return "";
 
-            if (input.Length < 4)
+            if (input.Length <= 4)
                 return input;
 
             string res = "";
